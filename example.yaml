@@ -41,7 +41,12 @@ modbus_controller:
 
 packages:
   device_default: !include
-    file: "./Devices/8266_nodemcuv2.yaml"
+    file: "./Devices/8266_nodemcuv2_logging.yaml"
+  wifi_default: !include
+    file: "./Configs/wifi.yaml"
+    vars:
+      wlan_ssid_ap: "ESP Wifi PowerLog"
+      wlan_pass_ap: !secret "wlan_pass_ap_powerlog"
 
   modbus_pm1_sdm72dm_v2_phases: !include
     file: "./estron-sdm-meter/SDM72DM-V2/3phase.yaml"
