@@ -1,4 +1,4 @@
-[submodule "estron-sdm-meter"]
-	path = ./estron-sdm-meter
-	url = https://github.com/kca-esphome/estron-sdm-meter.git
-	branch = main
+#[submodule "estron-sdm-meter"]
+#	path = ./estron-sdm-meter
+#	url = https://github.com/kca-esphome/estron-sdm-meter.git
+#	branch = main
