@@ -6,6 +6,7 @@
 
 # Over-the-Air connection
 ota:
+  platform: !secret "ota_platform"
   id: !secret "ota_id"
   password: !secret "ota_pass"
 
