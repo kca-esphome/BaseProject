@@ -1,5 +1,9 @@
-wifi:
+defaults:
+  wifi_ssid_ap: Fallback ESPhome
+  wifi_pass_ap: login
+
 # Enable fallback hotspot (captive portal) in case wifi connection fails
+wifi:
   ap:
     ssid: ${wifi_ssid_ap}
     password: ${wifi_pass_ap}

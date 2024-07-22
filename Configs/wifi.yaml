@@ -3,6 +3,8 @@
 #
 #   wlan_ssid_ap
 #   wlan_pass_ap
+defaults:
+  wifi_use_adr: 192.168.1.251
 
 # Over-the-Air connection
 ota:

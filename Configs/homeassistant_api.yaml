@@ -1,5 +1,8 @@
+defaults:
+  api_port: 6053
+
 # Enable Home Assistant API
 api:
-  port: 6053
+  port: ${api_port}
   encryption:
     key: !secret "ota_key"

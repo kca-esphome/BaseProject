@@ -1,3 +1,8 @@
+defaults:
+  log_uart:     UART1
+  log_level:    DEBUG
+  log_baudrate: 115200
+
 # Enable logging
 logger:
   hardware_uart: ${log_uart}
