@@ -15,7 +15,8 @@ wifi:
   ssid: !secret "wifi_ssid"
   password: !secret "wifi_pass"
 
-  use_address: ${USE_IP}
+  use_address: ${wifi_use_adr}
+
 
 # Send wifi feedback
 text_sensor:
