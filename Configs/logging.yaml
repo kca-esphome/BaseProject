@@ -1,0 +1,5 @@
+# Enable logging
+logger:
+  hardware_uart: ${LOG_UART}
+  level: ${LOG_LEVEL}
+  baud_rate: ${LOG_BAUDRATE}

@@ -1,0 +1,10 @@
+esp32:
+  board: esp32dev
+  framework:
+    type: esp-idf
+
+# Enable logging
+logger:
+  hardware_uart: "UART1"
+  level: "DEBUG"
+  baud_rate: 115200
