@@ -15,16 +15,7 @@ wifi:
   ssid: !secret "wifi_ssid"
   password: !secret "wifi_pass"
 
-<<<<<<< HEAD
-=======
-# Enable fallback hotspot (captive portal) in case wifi connection fails
-  ap:
-    ssid: ${wifi_ssid_ap}
-    password: ${wifi_pass_ap}
 
-captive_portal:
-
->>>>>>> 287af9c63fdaa2e73654d8d97df95479e1d5bd33
 # Send wifi feedback
 text_sensor:
   - platform: "wifi_info"
