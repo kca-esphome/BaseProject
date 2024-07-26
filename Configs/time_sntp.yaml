@@ -15,3 +15,13 @@ time:
      - ${time_sntp_srv1}
      - ${time_sntp_srv3}
      - ${time_sntp_srv3}
+
+text_sensor:
+  - platform: template
+    name: "Current time"
+    lambda: |-
+      char str[30]; 
+      time_t currTime = id(${time_sntp_id}).now().timestamp;
+      strftime(str, sizeof(str), "%H:%M", localtime(&currTime));
+      return  { str };
+    update_interval: 10s
