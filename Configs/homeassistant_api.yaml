@@ -1,6 +1,6 @@
 #VARS::
 substitutions:
-  api_port: 6053
+  api_port: "6053"
 
 # Enable Home Assistant API
 api:
