@@ -1,4 +1,5 @@
-defaults:
+#VARS::
+substitutions:
   log_uart:     UART1
   log_level:    DEBUG
   log_baudrate: 115200

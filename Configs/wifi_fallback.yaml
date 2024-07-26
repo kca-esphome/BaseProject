@@ -1,4 +1,5 @@
-defaults:
+#VARS::
+substitutions:
   wifi_ssid_ap: Fallback ESPhome
   wifi_pass_ap: login
 

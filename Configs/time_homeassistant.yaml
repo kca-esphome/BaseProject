@@ -1,4 +1,5 @@
-defaults:
+#VARS::
+substitutions:
   time_ha_id: homeassistant_time
   time_ha_tz: Europe/Berlin
 
