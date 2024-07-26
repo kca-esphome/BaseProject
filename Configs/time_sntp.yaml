@@ -1,0 +1,17 @@
+#VARS::
+substitutions:
+  time_sntp_id: sntp_time
+  time_sntp_tz: Europe/Berlin
+  time_sntp_srv1: ptbtime1.ptb.de
+  time_sntp_srv2: ntp1.ewetel.de
+  time_sntp_srv3: de.pool.ntp.org
+  
+# Example configuration entry
+time:
+  - platform: sntp
+    id: ${time_sntp_id}
+    timezone: ${time_sntp_tz}
+    servers:
+     - ${time_sntp_srv1}
+     - ${time_sntp_srv3}
+     - ${time_sntp_srv3}

@@ -1,6 +1,6 @@
 #VARS::
 substitutions:
-  time_ha_id: homeassistant_time
+  time_ha_id: time_homeassistant
   time_ha_tz: Europe/Berlin
 
 # Example configuration entry
