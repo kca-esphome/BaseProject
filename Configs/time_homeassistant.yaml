@@ -1,0 +1,9 @@
+defaults:
+  time_ha_id: homeassistant_time
+  time_ha_tz: Europe/Berlin
+
+# Example configuration entry
+time:
+  - platform: homeassistant
+    id: ${time_ha_id}
+    timezone: ${time_ha_tz}
