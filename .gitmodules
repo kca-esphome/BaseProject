@@ -1,0 +1,6 @@
+[submodule "energymeter/orno"]
+	path = energymeter/orno
+	url = https://github.com/kca-esphome/orno-meter.git
+[submodule "energymeter/estron"]
+	path = energymeter/estron
+	url = https://github.com/kca-esphome/estron-sdm-meter.git
